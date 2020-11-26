@@ -1,0 +1,196 @@
+/*  poznámky používat takto 
+    16 px = 100% = 1em */
+
+body {
+    margin: 0;
+    font-family: 'Source Code Pro', monospace;
+    text-align: center;
+
+}
+h1{
+    font-size: 100px;  
+    font-family: 'Montserrat', sans-serif;
+    position: relative;
+    bottom: 1.1em;
+    margin:50px auto 0 auto;
+    color: #66BFBF;
+    
+}
+
+h2{
+    font-size: 2rem;
+    position: relative;
+    color: #66BFBF;
+
+}
+
+h3 {
+    color: #66BFBF;
+    font-size: 1.2em;
+}
+
+.footer-link {
+    color: #11999E;
+    margin: 0 1em;
+    font-size: 1.2em;
+}
+
+p{
+    font-size: 1em;
+    color: #40514E;
+    
+}
+
+
+/*
+.mini-text{
+    text-align: left;
+    margin-left:230px;
+    width:50em;
+    padding-top: 1em;
+}
+*/
+
+.mini-text {
+    font-weight: normal;
+    line-height: 2;
+    margin-top: 1em;
+}
+
+.top_container{
+    background-color: #e1f4f3;
+    text-align: center;
+    position: relative;
+    padding-top: 250px;
+    padding-bottom: 150px;
+    
+}
+/*
+.text-uvod {
+    
+    width:80em;
+    text-align: center;
+    position: relative;
+    margin: 0 auto;
+    bottom: 15em;
+}
+*/
+
+.cloud-horni {
+    position: absolute;
+    right: 20em;
+    top: 50px;
+   
+    
+}
+
+.cloud-spodni {
+    position: absolute;
+    left: 20em;
+    bottom: 30em;
+}
+
+
+
+.middle-container{
+   /* background-color: #333333; */
+    text-align: center;
+    
+}
+
+.bottom-container{
+    text-align: center;
+    margin-top: 4em;
+    background-color: #66BFBF;
+    padding: 5em 0;
+    
+}
+
+.border {
+    border-bottom-style: dotted;
+    border-bottom-width: 0.5em;
+    width: 5%;
+    margin: 4em auto;
+    border-color: #EAF6F6;
+}
+
+.imge_logo {
+    width: 15em;
+    padding: 5em;
+    margin-bottom: 2em;
+}
+
+.imge_1{
+    width: 10em;
+    padding: 5em;
+    float: left;
+    margin-right: 30px;
+
+}
+
+.imge_2{
+    width: 10em;
+    padding: 5em;
+    float: right;
+    margin-left: 30px;
+
+}
+
+
+
+.skill-row {
+    width: 50%;
+    margin: 200px auto 200px auto;
+    text-align: left;
+    line-height:2;
+    
+}
+
+.contact-me {
+    margin-top:100px;
+}
+
+.prava{
+    color: #EAF6F6;
+    margin-top: 2em;
+}
+
+.BUTTON_PGL {
+    background: #66BFBF;
+    background-image: -webkit-linear-gradient(top, #66BFBF, #66BFBF);
+    background-image: -moz-linear-gradient(top, #3D94F6, #1E62D0);
+    background-image: -ms-linear-gradient(top, #3D94F6, #1E62D0);
+    background-image: -o-linear-gradient(top, #3D94F6, #1E62D0);
+    background-image: -webkit-gradient(to bottom, #3D94F6, #1E62D0);
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    border-radius: 20px;
+    color: #FFFFFF;
+    font-family: sans-serif;
+    font-size: 20px;
+    font-weight: 100;
+    padding: 20px;
+    margin-top:2em;
+    -webkit-box-shadow: 0.2px 0.2px 5px 0 #000000;
+    -moz-box-shadow: 0.2px 0.2px 5px 0 #000000;
+    box-shadow: 0.2px 0.2px 5px 0 #000000;
+    text-shadow: 1px 1px 20px #000000;
+    text-decoration: none;
+    display: inline-block;
+    cursor: pointer;
+    text-align: center;
+ }
+ 
+ .BUTTON_PGL:hover {
+    
+    background: #1E62D0;
+    background-image: -webkit-linear-gradient(top, #11999E, #11999E);
+    background-image: -moz-linear-gradient(top, #1E62D0, #3D94F6);
+    background-image: -ms-linear-gradient(top, #1E62D0, #3D94F6);
+    background-image: -o-linear-gradient(top, #1E62D0, #3D94F6);
+    background-image: -webkit-gradient(to bottom, #1E62D0, #3D94F6);
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    border-radius: 20px;
+    text-decoration: none;
+ }
